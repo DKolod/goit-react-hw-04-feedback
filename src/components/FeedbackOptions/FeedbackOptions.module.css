@@ -1,0 +1,21 @@
+.btnWrap{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 80px;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid rgb(128, 126, 126);
+}
+
+.btn:not(:last-child){
+    margin-right: 20px;
+}
+
+.btn:hover{
+    background-color: #31a12e;
+    color: #fff;
+}
